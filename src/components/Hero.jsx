@@ -44,7 +44,7 @@ export default function Hero() {
           </div>
 
           <a
-            href="https://drive.google.com/file/d/1zbuiywW40GvxUgseCl41wvaHQhzh3eY0/view?usp=sharing"
+            href="google.com"
             target="_blank"
             rel="noopener noreferrer"
             className="btn-secondary hero-resume-link"
