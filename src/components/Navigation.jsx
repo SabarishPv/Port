@@ -3,6 +3,7 @@ const links = [
   { href: '#skills', label: 'Expertise' },
   { href: '#projects', label: 'Projects' },
   { href: '#education', label: 'Education' },
+  { href: '#credentials', label: 'Credentials' },
   { href: '#contact', label: 'Contact' },
 ]
 

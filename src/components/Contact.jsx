@@ -81,12 +81,12 @@ export default function Contact() {
   return (
     <section id="contact">
       <div className="contact-layout">
-        <div className="section-heading fade-in">
+        <div className="section-heading">
           <p className="section-kicker">Contact</p>
           <h2 className="section-title">Let&apos;s build something useful together.</h2>
           <p className="section-copy">
-            I&apos;m actively looking for internships, entry-level roles, and good teams where
-            I can contribute and grow quickly.
+            I&apos;m looking for backend, full-stack, or AI engineering roles where I can
+            contribute from day one.
           </p>
 
           <div className="contact-points">
@@ -96,7 +96,7 @@ export default function Contact() {
           </div>
         </div>
 
-        <form className="contact-form fade-in" onSubmit={handleSubmit}>
+        <form className="contact-form" onSubmit={handleSubmit}>
           <div className="form-row">
             <label className="form-field">
               <span>Name</span>

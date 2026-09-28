@@ -1,31 +1,26 @@
 const education = [
   {
     title: 'B.Tech Information Technology',
-    place: 'College of Engineering Guindy, Anna University',
+    place: 'College of Engineering Guindy, Anna University, Chennai',
     period: '2022 - 2026',
+    grade: 'CGPA: 7.0 / 10',
   },
   {
-    title: 'Higher Secondary Certificate',
+    title: 'HSC & SSLC',
     place: 'Sri Venkateshwara Vidhyalayaa Higher Secondary School',
-    period: '2021 - 2022',
-    grade: '89%',
-  },
-  {
-    title: 'Secondary School Leaving Certificate',
-    place: 'Sri Venkateshwara Vidhyalayaa Higher Secondary School',
-    grade: '90%',
-    note: 'Completed foundational schooling with consistent academic performance.',
+    period: '2019 - 2022',
+    grade: 'HSC: 89% | SSLC: 90%',
   },
 ]
 
 export default function Education() {
   return (
     <section id="education">
-      <div className="section-heading fade-in">
+      <div className="section-heading">
         <h2 className="section-title">Education</h2>
       </div>
 
-      <div className="timeline fade-in">
+      <div className="timeline">
         {education.map((item) => (
           <article key={item.title} className="timeline-item">
             <div className="timeline-dot"></div>

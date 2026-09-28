@@ -6,6 +6,7 @@ import About from './components/About'
 import Skills from './components/Skills'
 import Projects from './components/Projects'
 import Education from './components/Education'
+import Credentials from './components/Credentials'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 
@@ -20,26 +21,8 @@ function App() {
     handleScroll()
     window.addEventListener('scroll', handleScroll)
 
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add('visible')
-          }
-        })
-      },
-      {
-        threshold: 0.18,
-        rootMargin: '0px 0px -48px 0px',
-      },
-    )
-
-    const fadeElements = document.querySelectorAll('.fade-in')
-    fadeElements.forEach((element) => observer.observe(element))
-
     return () => {
       window.removeEventListener('scroll', handleScroll)
-      observer.disconnect()
     }
   }, [])
 
@@ -52,6 +35,7 @@ function App() {
         <Skills />
         <Projects />
         <Education />
+        <Credentials />
         <Contact />
       </main>
       <Footer />

@@ -1,4 +1,4 @@
-const focusAreas = ['MERN apps', 'Python workflows', 'REST APIs', 'AWS foundations']
+const focusAreas = ['Full-stack web apps', 'REST APIs', 'LLM tool-calling systems', 'FastAPI backends']
 const resumeHref = '/resume.pdf'
 
 export default function Hero() {
@@ -8,9 +8,9 @@ export default function Hero() {
         <div className="hero-copy">
           <h1 className="hero-title">Sabarish PV</h1>
           <p className="hero-lead">
-            Final-year Information Technology student at College of Engineering Guindy,
-            Anna University. I work across React, Node.js, Python, databases, and applied
-            AI projects.
+            B.Tech Information Technology graduate from College of Engineering Guindy,
+            Anna University. I build full-stack applications, RESTful APIs, and LLM-based
+            systems with Python, JavaScript, and SQL/NoSQL databases.
           </p>
 
           <div className="hero-actions">
@@ -35,10 +35,10 @@ export default function Hero() {
           <div className="hero-panel-head">
             <div>
               <p className="hero-panel-kicker">Based in Chennai, India</p>
-              <h2 className="hero-panel-title">Open to internships and developer roles</h2>
+              <h2 className="hero-panel-title">Seeking backend, full-stack, or AI engineering roles</h2>
               <p className="hero-panel-copy">
-                Focused on shipping practical web apps, learning fast, and contributing to
-                strong engineering teams.
+                Focused on clean architecture, thorough testing, and shipping applications
+                that hold up in production.
               </p>
             </div>
           </div>
