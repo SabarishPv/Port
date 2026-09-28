@@ -1,5 +1,5 @@
 const focusAreas = ['Full-stack web apps', 'REST APIs', 'LLM tool-calling systems', 'FastAPI backends']
-const resumeHref = '/resume.pdf'
+const resumeHref = `${import.meta.env.BASE_URL}resume.pdf`
 
 export default function Hero() {
   return (
